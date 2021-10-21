@@ -1,8 +1,19 @@
+
+.body{
+    background-color:#ff8732;
+}
+
+
 #imagenes{
+    background-color:#ff8732;
+    bottom: 30%;
     text-align: center;
+    position: absolute;
+
 }
 
 
 .imagen{
     width: 20%; height: 35%;
+    margin:0.5%;
 }
