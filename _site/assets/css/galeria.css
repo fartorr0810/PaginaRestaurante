@@ -1,0 +1,19 @@
+
+body{
+    background-color:#ff8732;
+}
+
+
+@media only screen and (min-width : 901px){
+    .imagen{
+        right: -12%;
+        width: 20%; height: 30%;
+        margin:2.5%;
+        position: relative;
+    }
+}
+
+
+
+
+
