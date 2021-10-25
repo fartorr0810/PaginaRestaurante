@@ -3,17 +3,41 @@ body{
     background-color:#ff8732;
 }
 
-
-@media only screen and (min-width : 901px){
-    .imagen{
-        right: -12%;
-        width: 20%; height: 30%;
-        margin:2.5%;
-        position: relative;
+.row {
+    right: -12%;
+    bottom: -10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    position: relative;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 1px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%; height: 80%;
+    margin:2.5%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+    flex: 50%;
+    max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+    flex: 100%;
+    max-width: 100%;
     }
 }
-
-
-
-
-
