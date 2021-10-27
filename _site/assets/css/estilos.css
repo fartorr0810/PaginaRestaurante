@@ -1,0 +1,109 @@
+.fondo1{
+    float: left;
+    width: 29%;
+    height: 100%;
+    background-color:#f5ebdc;
+}
+
+.fondo2{
+    float: right;
+    width: 29%;
+    height: 100%;
+    background-color:#f5ebdc;
+}
+
+.menu{
+    float: left;
+    width: 42%;
+    height:100%;
+}
+
+#titulo{
+    font-weight: bolder;
+    margin: 1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border: 2.5px double;
+    border-color: burlywood;
+    color: brown;
+
+}
+
+#especialidad{
+    text-align: center;
+    width: 200px;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 2px dashed;
+    border-color: burlywood;
+    font-weight: bolder;
+    color: brown;
+
+}
+
+#menuprimero{
+    text-align: center;
+    margin-left: 1em;
+    color:white;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: burlywood;
+    width: 250px;
+    background-color:burlywood ;    
+}
+
+#parrillada{
+    float: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    color: brown;
+    
+    margin: 0.5em;
+}
+
+.menu img{
+    margin-left: 1em;
+    border-radius: 10%;
+    width: 330px;
+    height: 159px;
+}
+
+#menusegundo{
+    float: right;
+    text-align: center;
+    margin-right: 1em;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: burlywood;
+    width: 250px;
+    background-color:burlywood ;  
+}
+
+#solomillo{
+    float: right;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: brown;
+    font-weight: bolder;
+    margin: 0.3em;
+}
+
+#roquefort img{
+    margin-right: 1em;
+    float: right;
+    width: 330px;
+    height: 159px;
+    border-radius: 10%;
+
+}
