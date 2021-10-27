@@ -7,7 +7,7 @@ body {
     bottom: -10%;
     display: flex;
     flex-wrap: wrap;
-    padding: 1px;
+    padding: 10px;
     position: relative;
 }
 
@@ -31,7 +31,8 @@ body {
 
 .texto {
     font-family: fantasy;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bolder;
     color: brown;
 }
 
