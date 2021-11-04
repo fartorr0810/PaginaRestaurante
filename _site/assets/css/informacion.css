@@ -1,0 +1,145 @@
+body {
+    background-color: #f5ebdc;
+}
+
+.menu {
+    display: block;
+    width: 42%;
+    background-color: white;
+    float: center;
+    margin-block-end: 12px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#titulo {
+    font-weight: bolder;
+    margin: 1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border: 2.5px double;
+    border-color: burlywood;
+    color: brown;
+}
+
+#especialidad {
+    text-align: center;
+    width: 200px;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 2px dashed;
+    border-color: burlywood;
+    font-weight: bolder;
+    color: brown;
+}
+
+#menuprimero {
+    text-align: center;
+    margin-left: 1em;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: burlywood;
+    width: 250px;
+    background-color: brown;
+}
+
+#parrillada {
+    float: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    color: brown;
+    margin: 0.5em;
+}
+
+.menu img {
+    margin-left: 1em;
+    border-radius: 10%;
+    width: 330px;
+    height: 159px;
+}
+
+.enlaceColor {
+    background-color: brown;
+    border-radius: 0.5vw;
+}
+
+#menusegundo {
+    float: right;
+    text-align: center;
+    margin-right: 1em;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-color: burlywood;
+    width: 250px;
+    background-color: burlywood;
+}
+
+#solomillo {
+    float: right;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: brown;
+    font-weight: bolder;
+    margin: 0.3em;
+}
+
+#roquefort img {
+    margin-right: 1em;
+    float: right;
+    width: 330px;
+    height: 159px;
+    border-radius: 10%;
+}
+
+.dato {
+    color: #331d26;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    padding-left: 3%;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+    }
+    .fondo1 {
+        width: 0%;
+    }
+    .fondo2 {
+        width: 0%;
+    }
+}
+
+.menu .embed-container {
+    overflow: hidden;
+    padding-bottom: 304px;
+    /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+    position: relative;
+    height: 0;
+}
+
+.menu .embed-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
