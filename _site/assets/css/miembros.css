@@ -3,7 +3,7 @@ body {
 }
 
 .row {
-    margin-left: 5%;
+    margin: 3%;
     bottom: -5%;
     display: flex;
     flex-wrap: wrap;
@@ -35,8 +35,8 @@ body {
 
 @media screen and (max-width: 800px) {
     .column {
-        flex: 50%;
-        max-width: 50%;
+        flex: 49%;
+        max-width: 49%;
     }
 }
 
