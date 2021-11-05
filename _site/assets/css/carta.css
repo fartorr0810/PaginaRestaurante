@@ -47,7 +47,7 @@
         background-color: burlywood;
     }
 
-    #parrillada {
+    #hamburguesa {
         float: center;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +68,7 @@
     #menusegundo {
         float: center;
         text-align: center;
-        margin-right: 1em;
+        margin-left: 1em;
         color: white;
         font-weight: bolder;
         font-size: large;
@@ -79,7 +79,7 @@
         background-color: burlywood;
     }
 
-    #solomillo {
+    #cajasegundo {
         float: center;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
@@ -111,7 +111,7 @@
         margin: 1em;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: medium;
+        font-size: large;
         border: 1.5px double;
         border-color: brown;
         color: brown;
@@ -123,7 +123,7 @@
         margin-left: 1em;
         margin-top: 1.5em;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
+        font-size: medium;
         border: 2px dashed;
         border-color: burlywood;
         font-weight: bolder;
@@ -135,7 +135,7 @@
         margin-left: 1em;
         color: white;
         font-weight: bolder;
-        font-size: small;
+        font-size: medium;
         font-family: Arial, Helvetica, sans-serif;
         border: 1px solid;
         border-color: burlywood;
@@ -143,11 +143,11 @@
         background-color: burlywood;
     }
 
-    #parrillada {
+    #hamburguesa {
         float: left;
         text-align: left;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
+        font-size: medium;
         font-weight: bolder;
         color: brown;
         margin: 0.5em;
@@ -166,7 +166,7 @@
         margin-right: 1em;
         color: white;
         font-weight: bolder;
-        font-size: small;
+        font-size: medium;
         font-family: Arial, Helvetica, sans-serif;
         border: 1px solid;
         border-color: burlywood;
@@ -174,11 +174,11 @@
         background-color: burlywood;
     }
 
-    #solomillo {
+    #cajasegundo {
         float: right;
         text-align: right;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
+        font-size: medium;
         color: brown;
         font-weight: bolder;
         margin: 0.3em;
@@ -201,7 +201,7 @@
         margin: 1em;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: medium;
+        font-size: large;
         border: 1.5px double;
         border-color: brown;
         color: brown;
@@ -213,7 +213,7 @@
         margin-left: 1em;
         margin-top: 1.5em;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
+        font-size: medium;
         border: 2px dashed;
         border-color: burlywood;
         font-weight: bolder;
@@ -225,7 +225,7 @@
         margin-left: 1em;
         color: white;
         font-weight: bolder;
-        font-size: small;
+        font-size: medium;
         font-family: Arial, Helvetica, sans-serif;
         border: 1px solid;
         border-color: burlywood;
@@ -233,11 +233,11 @@
         background-color: burlywood;
     }
 
-    #parrillada {
+    #hamburguesa {
         float: left;
         text-align: left;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
+        font-size: medium;
         font-weight: bolder;
         color: brown;
         margin: 0.5em;
@@ -256,7 +256,7 @@
         margin-right: 1em;
         color: white;
         font-weight: bolder;
-        font-size: small;
+        font-size: medium;
         font-family: Arial, Helvetica, sans-serif;
         border: 1px solid;
         border-color: burlywood;
@@ -264,11 +264,11 @@
         background-color: burlywood;
     }
 
-    #solomillo {
+    #cajasegundo {
         float: right;
         text-align: right;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
+        font-size: medium;
         color: brown;
         font-weight: bolder;
         margin: 0.3em;
