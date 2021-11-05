@@ -5,12 +5,14 @@ header{
 .buscaComida{
 	background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
 
-	width: 40%;
+	width: 30%;
 	border: transparent;
 	border-bottom: solid 1px #ccc;
 	position: relative;
 	padding: 10px 10px 10px 30px;
 	outline: none;
+	right: -32vw;
+	top: -3vw;
 }
 #logo{
 	width: 6vw;
@@ -18,8 +20,24 @@ header{
 	position: relative;
 	padding-left: 1%;
 	padding-top: 1%;
-	margin-right: 1%;
+	
 }
+
+#home{
+	width: 4vw;
+	height: 4vw;
+	position: relative;
+	left: 5vw;
+}
+
+#nombree{
+	width: 20vw;
+	height: 6vw;
+	position: relative;
+	left: 26vw;
+
+}
+
 #lupa{
 	width: 10px;
 	height: 10px;
@@ -56,12 +74,48 @@ nav a {
 		width: 10vw;
 		height: 10vw;
 	}
+	#home{
+		width: 8vw;
+		height: 8vw;
+		position: relative;
+	}
+	#nombree{
+		width: 30vw;
+		height: 8vw;
+		position: relative;
+	}
+	.buscaComida{
+		width: 21%;
+		right: -25vw;
+		top: -3vw;
+	}
+	#nombree{
+		left: 15vw;
+	
+	}
 }
 
 @media screen and (max-width: 500px) {
 	#logo{
 		width: 15vw;
 		height: 15vw;
+	}
+	#home{
+		width: 13vw;
+		height: 13vw;
+		position: relative;
+		display: none;
+	}
+	#nombree{
+		width: 40vw;
+		height: 13vw;
+		position: relative;
+	}
+	.buscaComida{
+		width: 80%;
+		right: 0vw;
+		top: 0vw;
+		left: 2vw;
 	}
 }
 
