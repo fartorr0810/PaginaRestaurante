@@ -47,6 +47,7 @@ body {
     .column {
         flex: 50%;
         max-width: 50%;
+        height: 100%;
     }
 }
 
@@ -57,5 +58,6 @@ body {
     .column {
         flex: 100%;
         max-width: 100%;
+        height: 100%;
     }
 }
