@@ -9,7 +9,6 @@ body {
 
 .row {
     margin-left: 5%;
-    bottom: -5%;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
