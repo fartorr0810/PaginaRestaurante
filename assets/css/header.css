@@ -2,6 +2,9 @@ header{
 	background-color: rgb(255, 166, 0);
 	border-radius: 2ex;
 }
+.enlaceColor{
+    background-color:brown;
+}
 .buscaComida{
 	background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
 
