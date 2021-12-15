@@ -1,7 +1,9 @@
 body {
     background-color: #f5ebdc;
 }
-
+.enlaceColor{
+    background-color:brown;
+}
 .menu {
     display: block;
     width: 42%;
