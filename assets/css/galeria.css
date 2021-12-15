@@ -14,7 +14,7 @@ body {
 }
 
 
-/* Create four equal columns that sits next to each other */
+/* Create three equal columns that sits next to each other */
 
 .column {
     flex: 33%;
